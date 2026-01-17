@@ -1,0 +1,64 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Editor styling */
+.ProseMirror {
+  color: #1f2937 !important;
+  padding: 1.5rem;
+  min-height: 500px;
+  outline: none;
+}
+
+.ProseMirror p {
+  color: #1f2937 !important;
+  margin: 0.5rem 0;
+}
+
+.ProseMirror h1 {
+  color: #1f2937 !important;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.ProseMirror h2 {
+  color: #1f2937 !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.75rem 0;
+}
+
+.ProseMirror ul,
+.ProseMirror ol {
+  color: #1f2937 !important;
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.ProseMirror li {
+  color: #1f2937 !important;
+  margin: 0.25rem 0;
+}
+
+/* Cursor animation */
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
